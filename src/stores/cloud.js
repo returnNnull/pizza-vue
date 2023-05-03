@@ -25,7 +25,7 @@ const pizza =[
         about: "Традиционная итальянская пицца, пожалуй, самая популярная в мире, даже меню любой пиццерии начинается, как правило, именно с неё. ",
         price: 350,
         group: 0,
-        img: "assets/img/category/pizza/margarita-big.png"
+        img: "/pizza-vue/assets/img/category/pizza/margarita-big.png"
     },
     {
         id: 1001,
@@ -33,7 +33,7 @@ const pizza =[
         about: "Пицца с томатами, пицца в нью-йоркском стиле",
         price: 450,
         group: 0,
-        img: "assets/img/category/pizza/p2.png"
+        img: "/pizza-vue/assets/img/category/pizza/p2.png"
     },
     {
         id: 1002,
@@ -41,7 +41,7 @@ const pizza =[
         about: "Острая, с салями",
         price: 350,
         group: 0,
-        img: "assets/img/category/pizza/peper.png"
+        img: "/pizza-vue/assets/img/category/pizza/peper.png"
     },
     {
         id: 1003,
@@ -49,7 +49,7 @@ const pizza =[
         about: "Пицца с грибами, салями, томатами и белым соусом",
         price: 350,
         group: 0,
-        img: "assets/img/category/pizza/p3.png"
+        img: "/pizza-vue/assets/img/category/pizza/p3.png"
     },
     {
         id: 1004,
@@ -57,7 +57,7 @@ const pizza =[
         about: "В отличие от многих других видов пиццы, сыр, нарезанный довольно крупными кусками (по классическому рецепту это итальянский сыр пекорино (например, тума) и солёная рыба (анчоусы или сардины) здесь помещаются под слоем обжаренного в оливковом масле лука",
         price: 350,
         group: 0,
-        img: "assets/img/category/pizza/cicil.png"
+        img: "/pizza-vue/assets/img/category/pizza/cicil.png"
     },
 
     {
@@ -66,7 +66,7 @@ const pizza =[
         about: "Ветчина, маринованные огурчики, томаты, красный лук, чеснок, соус бургер, моцарелла, фирменный томатный соус",
         price: 419,
         group: 0,
-        img: "assets/img/category/pizza/burger.png"
+        img: "/pizza-vue/assets/img/category/pizza/burger.png"
     },
     {
         id: 1006,
@@ -74,7 +74,7 @@ const pizza =[
         about: "Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, фирменный соус альфредо, чеснок",
         price: 469,
         group: 0,
-        img: "assets/img/category/pizza/chiken.png"
+        img: "/pizza-vue/assets/img/category/pizza/chiken.png"
     },
 
 
@@ -89,7 +89,7 @@ const drinks = [
         about: "0,5",
         price: 109,
         group: 1,
-        img: "assets/img/category/drinks/cola.png"
+        img: "/pizza-vue/assets/img/category/drinks/cola.png"
     },
 
     {
@@ -98,7 +98,7 @@ const drinks = [
         about: "0,5",
         price: 109,
         group: 1,
-        img: "assets/img/category/drinks/no_sugar.png"
+        img: "/pizza-vue/assets/img/category/drinks/no_sugar.png"
     },
     {
         id: 2002,
@@ -106,7 +106,7 @@ const drinks = [
         about: "0,5",
         price: 109,
         group: 1,
-        img: "assets/img/category/drinks/orange.png"
+        img: "/pizza-vue/assets/img/category/drinks/orange.png"
     },
 
 ]
@@ -118,7 +118,7 @@ const snacks = [
         about: "Горячая закуска с цыпленком, моцареллой, митболами, острыми колбасками чоризо и соусом бургер в тонкой пшеничной лепешке",
         price: 209,
         group: 2,
-        img: "assets/img/category/snacks/1.png"
+        img: "/pizza-vue/assets/img/category/snacks/1.png"
     },
     {
         id: 3002,
@@ -126,7 +126,7 @@ const snacks = [
         about: "Горячая закуска с цыпленком, ананасом, сладким перцем, моцареллой и пряным соусом карри в тонкой пшеничной лепешке",
         price: 189,
         group: 2,
-        img: "assets/img/category/snacks/2.png"
+        img: "/pizza-vue/assets/img/category/snacks/2.png"
     },
 ]
 
@@ -138,7 +138,7 @@ const sugar = [
         about: "Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк",
         price: 149,
         group: 3,
-        img: "assets/img/category/sugar/img.png"
+        img: "/pizza-vue/assets/img/category/sugar/img.png"
     },
     {
         id: 4001,
@@ -146,7 +146,7 @@ const sugar = [
         about: "Раз откусить — навсегда полюбить! Оцените яркое сочетание соленой карамели и арахиса",
         price: 99,
         group: 3,
-        img: "assets/img/category/sugar/img_1.png"
+        img: "/pizza-vue/assets/img/category/sugar/img_1.png"
     },
     {
         id: 4002,
@@ -154,7 +154,7 @@ const sugar = [
         about: "Десерт, одобренный нашими бабушками. Горячие сладкие рулетики с пряной корицей и сахаром",
         price: 205,
         group: 3,
-        img: "assets/img/category/sugar/img_2.png"
+        img: "/pizza-vue/assets/img/category/sugar/img_2.png"
     },
     {
         id: 4003,
@@ -162,7 +162,7 @@ const sugar = [
         about: "Любимый десерт многих наших гостей — румяные сырники из печи. Такие нежные, в меру сладкие и напоминающие детство",
         price: 295,
         group: 3,
-        img: "assets/img/category/sugar/img_3.png"
+        img: "/pizza-vue/assets/img/category/sugar/img_3.png"
     },
 ]
 
@@ -171,30 +171,30 @@ const additives =[
         id: 5000,
         title: "Острый халапеньо",
         price: 59,
-        img: "assets/img/category/additives/jalapeno.png"
+        img: "/pizza-vue/assets/img/category/additives/jalapeno.png"
     },
     {
         id: 5001,
         title: "Шампиньоны",
         price: 59,
-        img: "assets/img/category/additives/img.png"
+        img: "/pizza-vue/assets/img/category/additives/img.png"
     },
     {
         id: 5002,
         title: "Маринованные огурчики",
         price: 59,
-        img: "assets/img/category/additives/img_1.png"
+        img: "/pizza-vue/assets/img/category/additives/img_1.png"
     },
     {
         id: 5003,
         title: "Свежие томаты",
         price: 59,
-        img: "assets/img/category/additives/img_3.png"
+        img: "/pizza-vue/assets/img/category/additives/img_3.png"
     },
     {
         id: 5004,
         title: "Пикантная пеперони",
         price: 59,
-        img: "assets/img/category/additives/img_2.png"
+        img: "/pizza-vue/assets/img/category/additives/img_2.png"
     },
 ]
