@@ -1,0 +1,39 @@
+button{
+    font-size: 1.2em;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 1em;
+}
+
+.btn.small{
+    padding: 0.5em 1em;
+}
+
+.btn.big{
+    padding: 1em 2em;
+    min-width: 250px;
+}
+
+
+.btn.secondary{
+    border: var(--grey) solid 1px;
+}
+
+.btn.primary{
+    background: var(--primary-color);
+    color: var(--white) !important;
+}
+.btn.primary:hover{
+    background: var(--primary-color);
+    opacity: 80%;
+}
+
+

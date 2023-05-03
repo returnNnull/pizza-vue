@@ -1,0 +1,16 @@
+
+:root{
+    --radius-standart: 14px;
+}
+
+.r-1{
+    border-radius: calc(var(--radius-standart) * 1);
+}
+
+.r-2{
+    border-radius: calc(var(--radius-standart) * 2);
+}
+
+.r-05{
+    border-radius:  calc(var(--radius-standart) / 2);
+}

@@ -1,0 +1,29 @@
+:root{
+    --card-wigth: 350px;
+    --small-card-wigth: 100px
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: var(--radius-standart);
+    margin: var(--margin-standart);
+    padding: var(--padding-standart);
+    background: var(--white);
+    cursor: pointer;
+}
+
+.card.big{
+    max-width: var(--card-wigth);
+    padding: calc(var(--padding-standart) * 2);
+}
+
+.card.small{
+    max-width: var(--small-card-wigth);
+    border-radius: calc(var(--radius-standart) / 2);
+    margin: calc(var(--margin-standart)/2);
+
+    border: 2px solid var(--white);
+}
+
