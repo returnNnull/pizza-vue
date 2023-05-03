@@ -40,7 +40,7 @@
 
 import {basket} from "@/stores/counter";
 import {ref} from "vue";
-import {getListByGroup} from "@/stores/cloud";
+import {getListByGroup} from "@/main";
 
 const props = defineProps({
   product: {

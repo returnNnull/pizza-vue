@@ -49,7 +49,7 @@
 <script setup>
 
 import ItemCard from "@/components/ItemCard.vue";
-import {getListByGroup} from "@/stores/cloud";
+import {getListByGroup} from "@/main";
 
 
 </script>
