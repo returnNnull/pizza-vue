@@ -74,7 +74,7 @@ const pizza =[
         about: "Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, фирменный соус альфредо, чеснок",
         price: 469,
         group: 0,
-        img: "/pizza-vue/assets/img/category/pizza/chiken.png"
+        img: "chiken.png"
     },
 
 
